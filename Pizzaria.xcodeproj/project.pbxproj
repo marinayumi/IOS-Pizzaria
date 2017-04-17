@@ -12,6 +12,12 @@
 		AC81AD8E1EA4D8CE00219F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC81AD8C1EA4D8CE00219F08 /* Main.storyboard */; };
 		AC81AD901EA4D8CE00219F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC81AD8F1EA4D8CE00219F08 /* Assets.xcassets */; };
 		AC81AD931EA4D8CE00219F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC81AD911EA4D8CE00219F08 /* LaunchScreen.storyboard */; };
+		AC81AD9D1EA4E28D00219F08 /* pizza-doce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC81AD9B1EA4E28D00219F08 /* pizza-doce.jpg */; };
+		AC81AD9E1EA4E28D00219F08 /* pizza-salgada.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AC81AD9C1EA4E28D00219F08 /* pizza-salgada.jpeg */; };
+		AC81ADA11EA4E62800219F08 /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC81AD9F1EA4E62800219F08 /* banana.jpg */; };
+		AC81ADA21EA4E62800219F08 /* brocolis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC81ADA01EA4E62800219F08 /* brocolis.jpg */; };
+		AC81ADA51EA4E6E100219F08 /* cocacola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC81ADA31EA4E6E100219F08 /* cocacola.jpg */; };
+		AC81ADA61EA4E6E100219F08 /* kuat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC81ADA41EA4E6E100219F08 /* kuat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		AC81AD8F1EA4D8CE00219F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC81AD921EA4D8CE00219F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC81AD941EA4D8CE00219F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC81AD9B1EA4E28D00219F08 /* pizza-doce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pizza-doce.jpg"; path = "imagens/pizza-doce.jpg"; sourceTree = "<group>"; };
+		AC81AD9C1EA4E28D00219F08 /* pizza-salgada.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "pizza-salgada.jpeg"; path = "imagens/pizza-salgada.jpeg"; sourceTree = "<group>"; };
+		AC81AD9F1EA4E62800219F08 /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = banana.jpg; path = imagens/banana.jpg; sourceTree = "<group>"; };
+		AC81ADA01EA4E62800219F08 /* brocolis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = brocolis.jpg; path = imagens/brocolis.jpg; sourceTree = "<group>"; };
+		AC81ADA31EA4E6E100219F08 /* cocacola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cocacola.jpg; path = imagens/cocacola.jpg; sourceTree = "<group>"; };
+		AC81ADA41EA4E6E100219F08 /* kuat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kuat.jpg; path = imagens/kuat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		AC81AD871EA4D8CE00219F08 /* Pizzaria */ = {
 			isa = PBXGroup;
 			children = (
+				AC81AD9A1EA4E01B00219F08 /* imagens */,
 				AC81AD881EA4D8CE00219F08 /* AppDelegate.swift */,
 				AC81AD8A1EA4D8CE00219F08 /* ViewController.swift */,
 				AC81AD8C1EA4D8CE00219F08 /* Main.storyboard */,
@@ -62,6 +75,19 @@
 				AC81AD941EA4D8CE00219F08 /* Info.plist */,
 			);
 			path = Pizzaria;
+			sourceTree = "<group>";
+		};
+		AC81AD9A1EA4E01B00219F08 /* imagens */ = {
+			isa = PBXGroup;
+			children = (
+				AC81ADA31EA4E6E100219F08 /* cocacola.jpg */,
+				AC81ADA41EA4E6E100219F08 /* kuat.jpg */,
+				AC81AD9F1EA4E62800219F08 /* banana.jpg */,
+				AC81ADA01EA4E62800219F08 /* brocolis.jpg */,
+				AC81AD9B1EA4E28D00219F08 /* pizza-doce.jpg */,
+				AC81AD9C1EA4E28D00219F08 /* pizza-salgada.jpeg */,
+			);
+			name = imagens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +149,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC81ADA51EA4E6E100219F08 /* cocacola.jpg in Resources */,
 				AC81AD931EA4D8CE00219F08 /* LaunchScreen.storyboard in Resources */,
+				AC81ADA21EA4E62800219F08 /* brocolis.jpg in Resources */,
 				AC81AD901EA4D8CE00219F08 /* Assets.xcassets in Resources */,
+				AC81ADA61EA4E6E100219F08 /* kuat.jpg in Resources */,
 				AC81AD8E1EA4D8CE00219F08 /* Main.storyboard in Resources */,
+				AC81AD9E1EA4E28D00219F08 /* pizza-salgada.jpeg in Resources */,
+				AC81ADA11EA4E62800219F08 /* banana.jpg in Resources */,
+				AC81AD9D1EA4E28D00219F08 /* pizza-doce.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
